@@ -1,0 +1,7 @@
+/* static/css/styles.css */
+
+/* Ensures the chart takes up the available space within its div */
+#co2Chart {
+    max-width: 100%;
+    height: 100%;
+}

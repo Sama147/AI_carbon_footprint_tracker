@@ -1,0 +1,13 @@
+# requirements.txt
+plotly>=5.17.0
+numpy>=1.24.0
+pandas>=2.0.0
+Flask>=2.3.0
+
+links:
+mini -> https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
+
+4o -> https://openai.com/index/hello-gpt-4o/
+
+4 -> https://openai.com/index/gpt-4-research/
+
