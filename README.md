@@ -8,7 +8,7 @@ A high-fidelity carbon tracking application that models the environmental impact
 * **Long-Term Habit Analysis**: Projects carbon accumulation and "Car Time" equivalents over 1 month to 5 years.
 * **Interactive Gradient Visualization**: Real-time graphing of carbon emission slopes across different AI model tiers.
 
-## 🧮 Mathematical Framework
+## Mathematical Framework
 
 The core engine treats carbon emission () as a **Scalar Field** in a 4-dimensional parameter space:
 **The Slope as a Partial Derivative**: Each line on the graph represents , measuring the rate of carbon accumulation per token.
@@ -31,7 +31,7 @@ The core engine treats carbon emission () as a **Scalar Field** in a 4-dimension
 
 ```
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 1. **Install dependencies:**
 ```bash
 pip install flask tiktoken
@@ -44,7 +44,7 @@ python app.py
 ```
 3. **Access the Dashboard:** Navigate to `http://127.0.0.1:5000` in your web browser.
 
- 📊 Data Sources used for the program
+ Data Sources used for the program
 * **Energy Intensity**: Based on Wh/token estimates for GPT-4 tier models.
 * **Carbon Intensity**: Regional data for Sweden (0.03), Germany (0.35), and USA (0.85) kg /kWh.
 * **PUE Factors**: Power Usage Effectiveness coefficients for global data centers.
